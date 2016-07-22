@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ZNPerson.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self method];
 }
 
 
 - (void)method {
-    NSLog(@"sdsdfsf");
+    NSLog(@"WOW");
+    ZNPerson *per = [ZNPerson new];
+    [per say];
+
 }
+
+
 
 @end
