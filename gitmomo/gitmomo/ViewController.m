@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ZNPerson.h"
+#import "Dog.h"
 
 @interface ViewController ()
 
@@ -25,6 +26,8 @@
     NSLog(@"WOW");
     ZNPerson *per = [ZNPerson new];
     [per say];
+    Dog *dog = [[Dog alloc]init];
+    [dog say];
 
 }
 

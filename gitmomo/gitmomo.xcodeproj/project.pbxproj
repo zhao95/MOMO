@@ -14,6 +14,7 @@
 		274DD9841D41D94F000F8E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274DD9831D41D94F000F8E52 /* Assets.xcassets */; };
 		274DD9871D41D94F000F8E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274DD9851D41D94F000F8E52 /* LaunchScreen.storyboard */; };
 		274DD9901D41DA0B000F8E52 /* ZNPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DD98F1D41DA0B000F8E52 /* ZNPerson.m */; };
+		274DD9931D41E868000F8E52 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DD9921D41E868000F8E52 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		274DD9881D41D94F000F8E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		274DD98E1D41DA0B000F8E52 /* ZNPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNPerson.h; sourceTree = "<group>"; };
 		274DD98F1D41DA0B000F8E52 /* ZNPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNPerson.m; sourceTree = "<group>"; };
+		274DD9911D41E868000F8E52 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		274DD9921D41E868000F8E52 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				274DD97B1D41D94F000F8E52 /* AppDelegate.m */,
 				274DD97D1D41D94F000F8E52 /* ViewController.h */,
 				274DD97E1D41D94F000F8E52 /* ViewController.m */,
+				274DD9911D41E868000F8E52 /* Dog.h */,
+				274DD9921D41E868000F8E52 /* Dog.m */,
 				274DD98E1D41DA0B000F8E52 /* ZNPerson.h */,
 				274DD98F1D41DA0B000F8E52 /* ZNPerson.m */,
 				274DD9801D41D94F000F8E52 /* Main.storyboard */,
@@ -156,6 +161,7 @@
 			files = (
 				274DD9901D41DA0B000F8E52 /* ZNPerson.m in Sources */,
 				274DD97F1D41D94F000F8E52 /* ViewController.m in Sources */,
+				274DD9931D41E868000F8E52 /* Dog.m in Sources */,
 				274DD97C1D41D94F000F8E52 /* AppDelegate.m in Sources */,
 				274DD9791D41D94F000F8E52 /* main.m in Sources */,
 			);
@@ -306,6 +312,7 @@
 				274DD98D1D41D94F000F8E52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
