@@ -21,7 +21,7 @@
 
 
 - (void)method {
-    NSLog(@"");
+    NSLog(@"sdsdfsf");
 }
 
 @end
